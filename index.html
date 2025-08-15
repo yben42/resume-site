@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benjamin Yiu">
+    <meta name="description" content="Personal Information and Background">
+    <meta name="keywords" content="Personal Profile, Education, Career, Skills, Hobbies">
+    <title>Benjamin Yiu - Personal Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="headshot.jpg" alt="Profile Picture" class="header-image" title="Profile Picture">
+            <h1>Benjamin Yiu</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#personal-info">Personal Info</a></li>
+                    <li><a href="#career-goal">Career Goal</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work-experience">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p>Name: Benjamin Yiu</p>
+            <p>Address: Liverpool, UK</p>
+            <p>Email: sgbyiu@liverpool.ac.uk</p>
+        </section>
+
+        <section id="career-goal">
+            <h2>Career Goal</h2>
+            <p>I want to apply everything I’ve learned, in data science and AI, to real-world
+                challenges. I’m especially interested in research applications in
+                bioinformatics, with a focus on dementia, where advanced data analysis and machine learning can
+                aid with early detection, improved treatments, and a deeper understanding of the dementia.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Higher Education</th>
+                    <td>MSc in Data Science and Ai
+                        <p>&nbsp;</p>
+                        </p><strong>Relevant Courses:</strong></p>
+                        <ul style="list-style-position: inside; padding-left: 10px;">
+                            <li>Programming Fundamentals</li>
+                            <li>Research Methods in Computer Science</li>
+                            <li>Maths and Statistics for AI and Data Science</li>
+                            <li>Database and Information Systems</li>
+                            <li>Applied Artificial Intelligence</li>
+                            <li>Big Data and Society: Algorithms and Platforms B</li>
+                            <li>Machine Learning and Bio-Inspired Optimisation</li>
+                            <li>Web Programming</li>
+                        </ul>
+                    </td>
+                    <td>University of Liverpool</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>BA in Business Administration and Management
+                        <p>&nbsp;</p>
+                        </p><strong>Relevant Courses:</strong></p>
+                        <ul style="list-style-position: inside; padding-left: 10px;">
+                            <li>Statistics </li>
+                            <li>Calculus </li>
+                            <li>Physics </li>
+                        </ul>
+                    </td>
+                    <td>CUNY City College of New York</td>
+                    <td>2021</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <table class="work-experience-table">
+                <tr>
+                    <th>Job Title</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Year(s)</th>
+                </tr>
+                <tr>
+                    <td>English Language Teacher</td>
+                    <td>Kings Education</td>
+                    <td>Bronx, NY, USA</td>
+                    <td>2024 - 2024</td>
+                </tr>
+                <tr>
+                    <td>English Language Teacher</td>
+                    <td>The Spanish Ministry of Education</td>
+                    <td>Alicante, Spain</td>
+                    <td>2023 - 2024</td>
+                </tr>
+            </table>
+            <p>More work experience can be viewed here <a href="https://www.linkedin.com/in/benjamin--yiu/"
+                    target="_blank">on Linkedin</a>.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul style="list-style-position: inside; padding-left: 10px;">
+                <li>Python</li>
+                <li>SQL Programming and Databases</li>
+                <li>R</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies and Interests</h2>
+            <p>I enjoy singing, playing piano, and making pottery.</p>
+            <img src="https://iili.io/2yDzFnV.jpg" alt="Personal Image" width="200" title="Me doing pottery">
+        </section>
+
+        <footer>
+            <p>Last updated: <span id="last-modified"></span></p>
+            <script>
+                document.getElementById("last-modified").textContent = document.lastModified;
+            </script>
+        </footer>
+    </div>
+</body>
+
+</html>
