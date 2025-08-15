@@ -1,143 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Benjamin Yiu">
-    <meta name="description" content="Personal Information and Background">
-    <meta name="keywords" content="Personal Profile, Education, Career, Skills, Hobbies">
-    <title>Benjamin Yiu - Personal Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Benjamin Yiu — Data & AI</title>
+  <meta name="description" content="Resume, projects, and writing by Benjamin Yiu (Data Science & AI)." />
+  <meta name="author" content="Benjamin Yiu" />
+
+  <!-- Open Graph for nice link previews -->
+  <meta property="og:title" content="Benjamin Yiu — Data & AI" />
+  <meta property="og:description" content="Resume, projects, and writing by Benjamin Yiu." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="./" />
+
+  <!-- Inter font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23A7C7E7%22/><text x=%2250%25%22 y=%2258%25%22 text-anchor=%22middle%22 font-size=%2256%22 fill=%22%230F1222%22 font-family=%22Arial, sans-serif%22>BY</text></svg>">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <img src="headshot.jpg" alt="Profile Picture" class="header-image" title="Profile Picture">
-            <h1>Benjamin Yiu</h1>
-
-            <nav>
-                <ul>
-                    <li><a href="#personal-info">Personal Info</a></li>
-                    <li><a href="#career-goal">Career Goal</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#work-experience">Work Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section id="personal-info">
-            <h2>Personal Information</h2>
-            <p>Name: Benjamin Yiu</p>
-            <p>Address: Liverpool, UK</p>
-            <p>Email: sgbyiu@liverpool.ac.uk</p>
-        </section>
-
-        <section id="career-goal">
-            <h2>Career Goal</h2>
-            <p>I want to apply everything I’ve learned, in data science and AI, to real-world
-                challenges. I’m especially interested in research applications in
-                bioinformatics, with a focus on dementia, where advanced data analysis and machine learning can
-                aid with early detection, improved treatments, and a deeper understanding of the dementia.</p>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <table>
-                <tr>
-                    <th>Level</th>
-                    <th>Degree</th>
-                    <th>Institution</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <th rowspan="2">Higher Education</th>
-                    <td>MSc in Data Science and Ai
-                        <p>&nbsp;</p>
-                        </p><strong>Relevant Courses:</strong></p>
-                        <ul style="list-style-position: inside; padding-left: 10px;">
-                            <li>Programming Fundamentals</li>
-                            <li>Research Methods in Computer Science</li>
-                            <li>Maths and Statistics for AI and Data Science</li>
-                            <li>Database and Information Systems</li>
-                            <li>Applied Artificial Intelligence</li>
-                            <li>Big Data and Society: Algorithms and Platforms B</li>
-                            <li>Machine Learning and Bio-Inspired Optimisation</li>
-                            <li>Web Programming</li>
-                        </ul>
-                    </td>
-                    <td>University of Liverpool</td>
-                    <td>In Progress</td>
-                </tr>
-                <tr>
-                    <td>BA in Business Administration and Management
-                        <p>&nbsp;</p>
-                        </p><strong>Relevant Courses:</strong></p>
-                        <ul style="list-style-position: inside; padding-left: 10px;">
-                            <li>Statistics </li>
-                            <li>Calculus </li>
-                            <li>Physics </li>
-                        </ul>
-                    </td>
-                    <td>CUNY City College of New York</td>
-                    <td>2021</td>
-                </tr>
-            </table>
-        </section>
-
-        <section id="work-experience">
-            <h2>Work Experience</h2>
-            <table class="work-experience-table">
-                <tr>
-                    <th>Job Title</th>
-                    <th>Company</th>
-                    <th>Location</th>
-                    <th>Year(s)</th>
-                </tr>
-                <tr>
-                    <td>English Language Teacher</td>
-                    <td>Kings Education</td>
-                    <td>Bronx, NY, USA</td>
-                    <td>2024 - 2024</td>
-                </tr>
-                <tr>
-                    <td>English Language Teacher</td>
-                    <td>The Spanish Ministry of Education</td>
-                    <td>Alicante, Spain</td>
-                    <td>2023 - 2024</td>
-                </tr>
-            </table>
-            <p>More work experience can be viewed here <a href="https://www.linkedin.com/in/benjamin--yiu/"
-                    target="_blank">on Linkedin</a>.</p>
-        </section>
-
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul style="list-style-position: inside; padding-left: 10px;">
-                <li>Python</li>
-                <li>SQL Programming and Databases</li>
-                <li>R</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
-
-        <section id="hobbies">
-            <h2>Hobbies and Interests</h2>
-            <p>I enjoy singing, playing piano, and making pottery.</p>
-            <img src="https://iili.io/2yDzFnV.jpg" alt="Personal Image" width="200" title="Me doing pottery">
-        </section>
-
-        <footer>
-            <p>Last updated: <span id="last-modified"></span></p>
-            <script>
-                document.getElementById("last-modified").textContent = document.lastModified;
-            </script>
-        </footer>
+  <!-- ====== Top Nav ====== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Benjamin Yiu</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <!-- If you rename your PDF to 'Benjamin_Yiu_CV.pdf', this link will work immediately. -->
+        <a class="btn btn-primary" href="./Benjamin_Yiu_CV.pdf" download>Download CV</a>
+      </div>
     </div>
-</body>
+  </header>
 
+  <!-- ====== Hero ====== -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Data & AI with business sense</h1>
+        <p class="sub">
+          MSc in Data Science & AI · Building useful, human-friendly tools with Python, SQL, and LLMs.
+          Based in Liverpool, UK.
+        </p>
+
+        <div class="quick-meta">
+          <a class="chip" href="mailto:byiu24@gmail.com" title="Email">byiu24@gmail.com</a>
+          <a class="chip" href="https://github.com/yben42" target="_blank" rel="noreferrer">github.com/yben42</a>
+          <a class="chip" href="https://www.linkedin.com/in/benjamin--yiu/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">See Projects</a>
+          <button class="btn btn-soft" id="copy-email">Copy Email</button>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <!-- If you have a real headshot, add headshot.jpg to your repo root -->
+        <figure class="avatar">
+          <img src="./headshot.jpg" alt="Headshot of Benjamin Yiu" onerror="this.style.display='none';document.getElementById('avatar-fallback').style.display='grid';" />
+          <div class="avatar-fallback" id="avatar-fallback" aria-hidden="true">
+            <span>BY</span>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== About ====== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="card">
+        <p>
+          I’m a data-driven problem solver who enjoys turning messy, real-world questions into clear,
+          measurable outcomes. Recently I’ve been focused on LLM-assisted apps, analytics pipelines, and
+          practical ML for things people actually use. Interests include bioinformatics (esp. dementia), product
+          analytics, and lightweight data engineering.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Experience (timeline) ====== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Software Intern — Deep Water Logistics LTD. <span class="tl-time">May–Jul 2025</span></h3>
+            <p>Automated CSV/API ingestion into PostgreSQL with Python, designed SQL schemas & indexes, and collaborated on a Flask dashboard for real-time delivery metrics.</p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>English Language Teacher — Kings Education <span class="tl-time">2024</span></h3>
+            <p>Taught ESL, built learning materials, and communicated technical concepts simply across diverse groups.</p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>English Language Teacher — Spanish Ministry of Education <span class="tl-time">2023–2024</span></h3>
+            <p>Developed classroom content, supported assessments, and practiced clear, empathetic communication daily.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="inline-note">
+        More roles & details on <a href="https://www.linkedin.com/in/benjamin--yiu/" target="_blank" rel="noreferrer">LinkedIn</a>.
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects (cards) ====== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="grid cards-3">
+        <article class="card">
+          <h3>LLM Assistant for Legal Case Intake</h3>
+          <p>Prototype using embeddings + retrieval on a small knowledge base; focus on rapid prototyping and measurable utility for non-technical staff.</p>
+          <ul class="tags">
+            <li>Python</li><li>Embeddings</li><li>RAG</li><li>Evaluation</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Stock Analysis Tool</h3>
+          <p>Ingested financial APIs to run time-series analytics and visualize signals (returns, volatility, simple factor comparisons).</p>
+          <ul class="tags">
+            <li>Pandas</li><li>APIs</li><li>Time series</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Named Entity Recognition Study</h3>
+          <p>Explored BiLSTM and Transformer models in PyTorch for NER; dataset prep, training, evaluation, and error analysis.</p>
+          <ul class="tags">
+            <li>PyTorch</li><li>NER</li><li>NLP</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Database Design & Querying</h3>
+          <p>Normalized MySQL schema for a quiz app; complex joins and window functions; CSV import and auth.</p>
+          <ul class="tags">
+            <li>MySQL</li><li>SQL</li><li>Schema design</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Skills (pill list) ====== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="card">
+        <ul class="skills">
+          <li>Python (pandas, NumPy)</li>
+          <li>SQL (PostgreSQL, MySQL)</li>
+          <li>Power BI, Tableau, Excel</li>
+          <li>REST APIs, JSON, OAuth</li>
+          <li>Flask, basic Streamlit</li>
+          <li>LLMs, RAG, prompt design</li>
+          <li>Data modeling & quality</li>
+          <li>Git, Jupyter</li>
+          <li>GA4; quick to learn new stacks</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Writing (blog-like cards) ====== -->
+  <section class="section" id="writing">
+    <div class="container">
+      <h2 class="section-title">Writing</h2>
+      <div class="grid cards-3">
+        <!-- Replace # with links to posts (can be GitHub Markdown files or external links) -->
+        <article class="card">
+          <h3><a href="#" target="_blank" rel="noreferrer">Building a tiny RAG app that’s actually useful</a></h3>
+          <p>Notes from prototyping a legal-intake helper: evaluation, context windows, and avoiding prompt spaghetti.</p>
+          <div class="meta">~4 min read</div>
+        </article>
+        <article class="card">
+          <h3><a href="#" target="_blank" rel="noreferrer">SQL schemas that don’t fight your analytics</a></h3>
+          <p>Pragmatic patterns for ingestion tables, slim marts, and indexes that matter.</p>
+          <div class="meta">~6 min read</div>
+        </article>
+        <article class="card">
+          <h3><a href="#" target="_blank" rel="noreferrer">What dashboards people actually check</a></h3>
+          <p>Fewer charts, clear thresholds, and “what to do next” beats rainbow heatmaps every time.</p>
+          <div class="meta">~5 min read</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact ====== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="card contact-card">
+        <p>Best way to reach me: <a href="mailto:byiu24@gmail.com">byiu24@gmail.com</a></p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:byiu24@gmail.com">Email me</a>
+          <a class="btn btn-soft" href="https://www.linkedin.com/in/benjamin--yiu/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+          <a class="btn btn-soft" href="https://github.com/yben42" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <span>© <span id="yr"></span> Benjamin Yiu</span>
+      <span class="muted">Last updated: <span id="last-mod"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    // dynamic bits
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    document.getElementById('last-mod').textContent = document.lastModified;
+
+    document.getElementById('copy-email').addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText('byiu24@gmail.com');
+        const btn = document.getElementById('copy-email');
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = 'Copy Email', 1200);
+      } catch(e) {}
+    });
+
+    // If you kept your original PDF name with spaces/parentheses, you can swap the CV link at runtime:
+    // document.querySelector('.btn-primary[download]')
+    //   .setAttribute('href', encodeURI('./Ben_8_12 (et.pdf'));
+  </script>
+</body>
 </html>
